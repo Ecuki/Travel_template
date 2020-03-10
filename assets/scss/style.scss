@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+@import "./_loader.scss";
+@import "./_nav.scss";
+@import "./_sections.scss";
+@import "./_section1.scss";
+@import "./_section2.scss";
+@import "./_section3.scss";
+@import "./_section4.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+$shadow-color: rgba(245, 248, 217, 0.822);
+.wrapper {
+  width: 100vw;
+  height: 100%;
+  visibility: hidden;
+  position: fixed;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  font-family: "Lato", sans-serif;
+  //   -webkit-overflow-scrolling: touch;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  & {
+    -ms-overflow-style: none;
+  }
+}
